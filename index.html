@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Search Engine Crawlers Reference — Complete User-Agent Database</title>
+<meta name="description" content="Complete database of AI search engine crawler user-agents: GPTBot, PerplexityBot, ClaudeBot, Google-Extended, and more. Robots.txt configuration guide.">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;max-width:1000px;margin:0 auto;padding:20px;background:#f8f9fa;color:#333}
+h1{text-align:center;margin:20px 0 5px;color:#1a1a2e}
+.subtitle{text-align:center;color:#666;margin-bottom:25px}
+table{width:100%;border-collapse:collapse;background:#fff;border-radius:8px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.08);margin:20px 0}
+th{background:#16213e;color:#fff;padding:12px 15px;text-align:left;font-size:0.9em}
+td{padding:10px 15px;border-bottom:1px solid #f0f0f0;font-size:0.9em}
+tr:hover td{background:#f8f8ff}
+code{background:#e8e8e8;padding:2px 6px;border-radius:3px;font-size:0.85em}
+.section{margin:30px 0}
+.section h2{color:#16213e;border-bottom:2px solid #e8e8e8;padding-bottom:8px;margin-bottom:15px}
+pre{background:#1a1a2e;color:#e0e0e0;padding:15px;border-radius:8px;overflow-x:auto;font-size:0.85em;line-height:1.6}
+.status-allow{color:#27ae60;font-weight:bold}
+.status-block{color:#e74c3c;font-weight:bold}
+.cta{text-align:center;margin:30px 0;padding:25px;background:linear-gradient(135deg,#667eea,#764ba2);border-radius:12px;color:#fff}
+.cta a{color:#fff;text-decoration:none;font-weight:bold;display:inline-block;background:rgba(255,255,255,0.2);padding:12px 30px;border-radius:8px;margin-top:10px}
+footer{text-align:center;margin:30px 0;color:#999;font-size:0.9em}
+footer a{color:#667eea}
+.updated{text-align:center;color:#999;font-size:0.8em;margin-bottom:20px}
+</style>
+</head>
+<body>
+<h1>AI Search Engine Crawlers Reference</h1>
+<p class="subtitle">Complete database of AI crawler user-agents for robots.txt configuration</p>
+<p class="updated">Last updated: March 2026</p>
+
+<div class="section">
+<h2>AI Crawler User-Agents</h2>
+<table>
+<thead>
+<tr><th>User-Agent</th><th>Company</th><th>Purpose</th><th>Respects robots.txt</th><th>Documentation</th></tr>
+</thead>
+<tbody>
+<tr><td><code>GPTBot</code></td><td>OpenAI</td><td>Training data collection</td><td>Yes</td><td><a href="https://platform.openai.com/docs/gptbot">Docs</a></td></tr>
+<tr><td><code>OAI-SearchBot</code></td><td>OpenAI</td><td>ChatGPT Search indexing</td><td>Yes</td><td><a href="https://platform.openai.com/docs/bots">Docs</a></td></tr>
+<tr><td><code>ChatGPT-User</code></td><td>OpenAI</td><td>ChatGPT browsing mode</td><td>Yes</td><td><a href="https://platform.openai.com/docs/bots">Docs</a></td></tr>
+<tr><td><code>PerplexityBot</code></td><td>Perplexity AI</td><td>Search indexing</td><td>Yes</td><td><a href="https://docs.perplexity.ai/docs/perplexitybot">Docs</a></td></tr>
+<tr><td><code>Google-Extended</code></td><td>Google</td><td>Gemini/AI features training</td><td>Yes</td><td><a href="https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers">Docs</a></td></tr>
+<tr><td><code>ClaudeBot</code></td><td>Anthropic</td><td>Claude training data</td><td>Yes</td><td><a href="https://docs.anthropic.com/en/docs/crawlers">Docs</a></td></tr>
+<tr><td><code>Applebot-Extended</code></td><td>Apple</td><td>Apple Intelligence training</td><td>Yes</td><td><a href="https://support.apple.com/en-us/111325">Docs</a></td></tr>
+<tr><td><code>Meta-ExternalAgent</code></td><td>Meta</td><td>Meta AI training</td><td>Yes</td><td><a href="https://developers.facebook.com/docs/sharing/bot">Docs</a></td></tr>
+<tr><td><code>cohere-ai</code></td><td>Cohere</td><td>AI model training</td><td>Yes</td><td>-</td></tr>
+<tr><td><code>Bytespider</code></td><td>ByteDance</td><td>TikTok/AI training</td><td>Yes</td><td>-</td></tr>
+</tbody>
+</table>
+</div>
+
+<div class="section">
+<h2>Robots.txt Examples</h2>
+<h3>Allow All AI Crawlers (Recommended for GEO)</h3>
+<pre>User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: Bytespider
+Allow: /</pre>
+
+<h3>Block All AI Crawlers</h3>
+<pre>User-agent: GPTBot
+Disallow: /
+
+User-agent: OAI-SearchBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /</pre>
+
+<h3>Selective Access (Allow Search, Block Training)</h3>
+<pre># Allow AI search bots
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# Block training-only bots
+User-agent: GPTBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /</pre>
+</div>
+
+<div class="cta">
+<p>Check if your robots.txt is properly configured for AI crawlers</p>
+<a href="https://geoscoreai.com/checks/robots-txt">Check Your Robots.txt with GEOScore →</a>
+<p style="margin-top:10px;font-size:0.9em;opacity:0.8">Free scan covers 11 technical checks for AI search readiness</p>
+</div>
+
+<div class="section">
+<h2>Related Resources</h2>
+<table>
+<thead><tr><th>Resource</th><th>Description</th></tr></thead>
+<tbody>
+<tr><td><a href="https://geoscoreai.com">GEOScore Scanner</a></td><td>AI search visibility scanner with 11 technical checks</td></tr>
+<tr><td><a href="https://geoscoreai.com/blog/robots-txt-ai-crawlers">Robots.txt for AI Crawlers Guide</a></td><td>Complete guide to configuring AI crawler access</td></tr>
+<tr><td><a href="https://github.com/henu-wang/ai-robots-txt-generator">AI Robots.txt Generator</a></td><td>Python tool to generate AI-optimized robots.txt</td></tr>
+<tr><td><a href="https://github.com/henu-wang/awesome-geo">Awesome GEO</a></td><td>Curated list of GEO resources and tools</td></tr>
+<tr><td><a href="https://geoscoreai.com/blog/what-is-geo">What is GEO?</a></td><td>Introduction to Generative Engine Optimization</td></tr>
+</tbody>
+</table>
+</div>
+
+<footer>
+<p>Built by <a href="https://geoscoreai.com">GEOScore AI</a> | <a href="https://github.com/henu-wang/awesome-geo">Awesome GEO</a> | <a href="https://github.com/henu-wang/ai-robots-txt-generator">AI Robots.txt Generator</a></p>
+</footer>
+</body>
+</html>
