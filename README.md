@@ -4,6 +4,14 @@ A complete, up-to-date database of AI search engine crawler user-agents and robo
 
 ## [View the Reference Page →](https://henu-wang.github.io/ai-crawlers-reference/)
 
+## Online Tools
+
+Check your site against all these crawlers instantly — no installation needed:
+
+- **[AI Crawler Access Checker](https://geoscoreai.com/tools/ai-crawler-checker)** — Verify which AI search engines can access your site
+- **[AI Robots.txt Generator](https://geoscoreai.com/tools/robots-txt-generator)** — Generate an optimized robots.txt for AI crawlers
+- **[Full GEO Scan](https://geoscoreai.com)** — Comprehensive 11-signal AI search readiness scan
+
 ## Crawlers Included
 
 | User-Agent | Company | Purpose |
